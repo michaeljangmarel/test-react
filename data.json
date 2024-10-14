@@ -1,0 +1,18 @@
+{
+     "books" : [
+        {
+            "id": "1", "title": "The Catcher in the Rye", "views": 100 , "price": 5000
+        }
+        ,
+        {
+            "id": "2", "title": "To Kill a Mockingbird", "views": 100 , "price": 5000
+        }
+        ,
+        {
+            "id": "3", "title": "Moby Dick", "views": 100 , "price": 5000
+        }
+        , {
+            "id": "4", "title": "War and Peace", "views": 100 , "price": 5000
+        }
+     ]
+}
