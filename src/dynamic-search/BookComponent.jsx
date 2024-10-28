@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-const books = [
-  "The Catcher in the Rye",
-  "To Kill a Mockingbird",
-  "1984",
-  "The Great Gatsby",
-  "Moby Dick",
-  "Pride and Prejudice",
-  "War and Peace",
-];
+
 
 function Book() {
+  const  books = [
+    "The Catcher in the Rye",
+    "To Kill a Mockingbird",
+    "1984",
+    "The Great Gatsby",
+    "Moby Dick",
+    "Pride and Prejudice",
+    "War and Peace",
+  ];
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchChange = (e) => {
